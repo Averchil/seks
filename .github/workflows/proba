@@ -179,22 +179,7 @@ namespace Графы
             
                 }
             }
-            for (int i = 0; i < finishx.Count; i++)
-            {
-                for (int j = 0; j < x.Count; j++)
-                {
-                    if (finishx[i] == x[j])
-                    {
-                        stolbec = j + 1;
-                        mstolb.Add(stolbec);
-                    }
-                }
-            }
-
-
-
-
-
+            
 
             for (int i = 0; i < mstolb.Count; i++)
             {
