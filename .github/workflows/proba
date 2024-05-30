@@ -104,7 +104,7 @@ namespace Графы
                  
 
                 }
-                if (textBox1.Text == "")
+                if (textBox1.Text == "1")
                 { MessageBox.Show("Не присвоено имя связи", "Ошибка"); }
 
                 if (e.Button == MouseButtons.Right)
