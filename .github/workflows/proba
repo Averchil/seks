@@ -61,7 +61,7 @@ namespace Графы
         private void Form1_MouseClick(object sender, MouseEventArgs e)
 
         {
-            if (checkBox1.Checked==false) // вершины
+            if (checkBox.Checked==false) // вершины
             {
                 Graphics g = this.CreateGraphics();
                 int width = 28;
